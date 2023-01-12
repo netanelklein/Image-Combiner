@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "184014971834",
+    "project_id": "style-transfer-334ff",
+    "storage_bucket": "style-transfer-334ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184014971834:android:db17ae63b088f00d41f383",
+        "android_client_info": {
+          "package_name": "com.example.image_combiner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184014971834-goch93s0tlajnrus923s0ehmc9pen4iu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALOzYO7PTwni27S2dAQnLhyynwYTe5aYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184014971834-goch93s0tlajnrus923s0ehmc9pen4iu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
