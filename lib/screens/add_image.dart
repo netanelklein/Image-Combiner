@@ -56,11 +56,14 @@ class _AddImageState extends State<AddImage> {
                 const Text("Target Image:"),
                 if (_targetImage != null)
                   Stack(children: [
-                    Image.file(
-                      File(_targetImage!.path),
-                      width: 200,
-                      height: 200,
-                      fit: BoxFit.cover,
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(8.0),
+                      child: Image.file(
+                        File(_targetImage!.path),
+                        width: 200,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                     Positioned(
                       top: 0,
@@ -95,11 +98,14 @@ class _AddImageState extends State<AddImage> {
                 const Text("Source Image:"),
                 if (_sourceImage != null)
                   Stack(children: [
-                    Image.file(
-                      File(_sourceImage!.path),
-                      width: 200,
-                      height: 200,
-                      fit: BoxFit.cover,
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(8.0),
+                      child: Image.file(
+                        File(_sourceImage!.path),
+                        width: 200,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                     Positioned(
                       top: 0,
